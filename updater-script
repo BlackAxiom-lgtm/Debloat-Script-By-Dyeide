@@ -169,7 +169,6 @@ run_program("/sbin/rm", "-rf", "system/priv-app/SamsungMagnifier2");
 run_program("/sbin/rm", "-rf", "system/priv-app/SecLiveWallpaperPicker");
 run_program("/sbin/rm", "-rf", "system/priv-app/SendHelpMessage");
 run_program("/sbin/rm", "-rf", "system/priv-app/SmartcardManager");
-run_program("/sbin/rm", "-rf", "system/priv-app/Tag");
 run_program("/sbin/rm", "-rf", "system/priv-app/UIBCVirtualSoftkey");
 run_program("/sbin/rm", "-rf", "system/priv-app/UcsPinpad");
 run_program("/sbin/rm", "-rf", "system/priv-app/UrgentFWUpdate");
