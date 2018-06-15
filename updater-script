@@ -4,7 +4,7 @@ unmount("/data");
 unmount("/preload");
 ui_print(" ");
 
-ui_print("Debloat script for Breeze+");
+ui_print("Debloat script for n0000bs");
 ui_print(" ");
 
 ui_print("Mounting partitions: /system /data /cache");
