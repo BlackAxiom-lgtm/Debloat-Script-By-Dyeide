@@ -4,7 +4,7 @@ unmount("/data");
 unmount("/preload");
 ui_print(" ");
 
-ui_print("Debloat script for Breeze+");
+ui_print("Debloat script for No NFC devices);
 ui_print(" ");
 
 ui_print("Mounting partitions: /system /data /cache");
@@ -99,6 +99,7 @@ ui_print("Done!");
 ui_print(" ");
 
 ui_print("Removing bloatware from /system/priv-app");
+run_program("/sbin/rm", "-rf", "system/priv-app/Tag"); 
 run_program("/sbin/rm", "-rf", "system/priv-app/SecureFolder");
 run_program("/sbin/rm", "-rf", "system/priv-app/SamsungPass_1.2");
 run_program("/sbin/rm", "-rf", "system/priv-app/NSFusedLocation_v3.0");
